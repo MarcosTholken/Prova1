@@ -1,3 +1,6 @@
+
+import utfpr.ct.dainf.if62c.avaliacao.Complexo;
+
 /**
  * UTFPR - Universidade Tecnológica Federal do Paraná
  * DAINF - Departamento Acadêmico de Informática
@@ -13,5 +16,10 @@ public class Avaliacao1 {
     }
     
     // implementar raizesEquacao(Complexo, Complexo, Complexo)
-    
+    public static Complexo[] raizesEquacao(Complexo a, Complexo b, Complexo c){
+        Complexo[] raizes = new Complexo[1];
+       
+        
+        return raizes;
+    }
 }
