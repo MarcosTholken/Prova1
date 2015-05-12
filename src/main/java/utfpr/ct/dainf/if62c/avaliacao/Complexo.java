@@ -61,8 +61,8 @@ public class Complexo {
         // CRIAR VETOR COM DUAS POSIÇÔES!
         Complexo[] raiz = new Complexo[1];
 
-        raiz[0] = sqrt(sqrt(Math.pow(real, 2) + Math.pow(img, 2)))*(Math.cos(Math.atan(img/real))/2), sqrt(sqrt(Math.pow(real, 2) + Math.pow(img, 2)))*Math.sin(Math.atan(img/real)/2);
-        raiz[1] = sqrt(sqrt(Math.pow(real, 2) + Math.pow(img, 2)))*Math.cos((Math.atan(img/real))/2 + Math.PI), sqrt(sqrt(Math.pow(real, 2) + Math.pow(img, 2)))*Math.sin(Math.atan(img/real)/2 + Math.PI);
+        //raiz[0] = sqrt(sqrt(Math.pow(real, 2) + Math.pow(img, 2)))*(Math.cos(Math.atan(img/real))/2), sqrt(sqrt(Math.pow(real, 2) + Math.pow(img, 2)))*Math.sin(Math.atan(img/real)/2);
+        //raiz[1] = sqrt(sqrt(Math.pow(real, 2) + Math.pow(img, 2)))*Math.cos((Math.atan(img/real))/2 + Math.PI), sqrt(sqrt(Math.pow(real, 2) + Math.pow(img, 2)))*Math.sin(Math.atan(img/real)/2 + Math.PI);
         
         // retornar o vetor contendo as raízes
         return raiz;
